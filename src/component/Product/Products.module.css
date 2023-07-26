@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title img{
+    width: 100px;
+}
+.list_products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    width: 90%;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 1px solid black; */
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,min-max(200px,1fr));
+    height: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px solid gainsboro;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* gap: 15px; */
+     width: 60rem;
+    /* height: 8rem;  */
+    overflow-y: scroll;
+    /* overflow: hidden;  */
+}
+.product{
+    position: relative;
+    width: 250px;
+    height: 130px;
+    display: flex;
+    scroll-behavior: smooth;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 20px;
+    /* flex-direction: column; */
+
+    
+}
+
+.product img{
+
+    object-fit: cover;
+    width: 70px;
+    right: 0;
+    position: absolute;
+    object-fit: cover;
+    rotate: -20deg;
+    bottom: -50px;
+}
+.left{
+    /* display: flex; */
+    /* gap: 100px; */
+
+    left: 0;
+}
+.left h5{
+    font-size: 25px;
+    top: 0;
+    display: inline;
+}
+.left span{
+    display: block;
+}
+.left div{
+    font-size: 20px;
+    font-weight: 500;
+}
+.left button{
+    border-radius: 50px;
+    padding: 6px;
+    
+    margin: 20px;
+    background-color: white;
+}
+
+.list li{
+    padding: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.list li:hover{
+    color: var(--pink);
+}
+

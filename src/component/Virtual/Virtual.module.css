@@ -1,0 +1,44 @@
+.virtual{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-content: space-between;
+    padding: 0px 90px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.left span{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.left p{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.left div{
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* text-align: center; */
+}
+.left img{
+    text-align: center;
+    width: 150px;
+}
+.right{
+    margin-right: 50px;
+}
+.right .wrapper{
+    width: 400px;
+    
+}

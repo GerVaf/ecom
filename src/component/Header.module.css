@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo>img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.inp{
+    padding: 10px;
+    margin: 0px 20px;
+    width: 150px;
+    height: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.cart{
+    /* font-weight: 600; */
+    font-size: 30px;
+}
